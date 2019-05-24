@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great choice for small/medium websites!
+title: 'Hi, I''m Andrey'
 image: /img/dsc04555.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: this is the heading
+subheading: Full stack web developer
 mainpitch:
   title: Andrey Posudevsky
   description: >
