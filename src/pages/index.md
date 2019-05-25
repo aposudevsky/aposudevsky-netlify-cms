@@ -1,9 +1,14 @@
 ---
 templateKey: index-page
-title: 'Hi, I''m Andrey'
+title: 'Hello, I''m Andrey'
 image: /img/dsc04555.jpg
 heading: this is the heading
-subheading: Full stack web developer
+subheading: >-
+  I am full stack web developer with passion about performance and
+  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
+  Backend Developer.  Headless adept, occasional speaker, team lead with strong
+  interest in everything Full Stack.  Drupal, Gatsby, React, PWAs, API-first,
+  complex architecture of high-load products inspire me to build better apps.
 mainpitch:
   title: Andrey Posudevsky
   description: >
