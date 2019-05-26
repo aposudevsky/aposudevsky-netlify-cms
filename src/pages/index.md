@@ -1,31 +1,28 @@
 ---
 templateKey: index-page
-title: 'Hi, I''m Andrey'
+title: 'Hello, I''m Andrey'
 image: /img/dsc04555.jpg
 heading: this is the heading
-subheading: Full stack web developer
+subheading: >-
+  I am full stack web developer with passion about performance and
+  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
+  Backend Developer.  Headless adept, occasional speaker, team lead with strong
+  interest in everything Full Stack.  Drupal, Gatsby, React, PWAs, API-first,
+  complex architecture of high-load products inspire me to build better apps.
 mainpitch:
-  title: Andrey Posudevsky
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: not used
+  description: not used
+description: not used
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/gatsby-logo.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/coffee-gear.png
+    - image: /img/gatsby-logo.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
