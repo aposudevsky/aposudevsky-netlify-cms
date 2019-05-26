@@ -171,8 +171,6 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
-            icon
-            title
             text
           }
           heading
@@ -181,4 +179,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
