@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Contacts from '../components/Contacts'
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -28,7 +27,7 @@ export const IndexPageTemplate = ({
     </div>
   </section>
 
-  <Features gridItems={intro.blurbs} />
+  <Features gridItems={intro.blurbs} heading={intro.heading} subheading={intro.description} />
   <Contacts />
 
   {/*
@@ -55,7 +54,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          
+
         </h3>
       </div>
     </div>
@@ -172,13 +171,8 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            icon
+            title
             text
           }
           heading
