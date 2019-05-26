@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -38,10 +36,9 @@ const Navbar = class extends React.Component {
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><AnchorLink href="#intro">Welcome</AnchorLink></li>
+							<li><AnchorLink href="#two">What I do</AnchorLink></li>
+							<li><AnchorLink href="#three">Get in touch</AnchorLink></li>
 						</ul>
 					</nav>
 				</div>
