@@ -28,7 +28,7 @@ intro:
         including building eCommerce websites, blogs, landing pages and all
         sorts of portals.
       title: Drupal
-    - icon: fa-react
+    - icon: fa-code
       text: >-
         React is a JavaScript library for building user interfaces. It is
         maintained by Facebook and a community of individual developers and
@@ -40,7 +40,7 @@ intro:
         quickest method to fetch rapidly changing data that needs to be
         recorded.
       title: React
-    - icon: fa-mobile-alt
+    - icon: fa-code
       text: >-
         PWA is a technique to make your website look and feel like a native app
         on any platform. IOS, Android, Windows phone, Desktop app - all looks
