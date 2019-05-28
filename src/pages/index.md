@@ -40,6 +40,14 @@ intro:
         quickest method to fetch rapidly changing data that needs to be
         recorded.
       title: React
+    - icon: fa-mobile-alt
+      text: >-
+        PWA is a technique to make your website look and feel like a native app
+        on any platform. IOS, Android, Windows phone, Desktop app - all looks
+        native to its platform. In combination with Service Workers PWA can do a
+        lot of things, such as work offline, background syncing, push
+        notifications and many more.
+      title: Progressive web apps
   heading: What I do
   description: 'I offer various full stack development services '
 main:
