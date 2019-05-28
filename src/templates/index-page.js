@@ -161,7 +161,9 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            icon
             text
+            title
           }
           heading
           description

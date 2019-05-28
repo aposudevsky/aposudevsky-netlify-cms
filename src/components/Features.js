@@ -9,17 +9,17 @@ const FeatureGrid = ({ gridItems, heading, subheading }) => (
             <h2>{ heading }</h2>
             <p>{ subheading }</p>
             <div className="features">
-              
+
               {gridItems.map(item => (
                 <section key={item.text}>
-                  <span className="icon major fa-code" />
-                  <h3>Lorem ipsum amet</h3>
+                  <span className={ "icon major " + item.icon } />
+                  <h3>{ item.title }</h3>
                   <p>{item.text}</p>
                 </section>
               ))}
 
             </div>
-            {/* 
+            {/*
             <ul className="actions">
                 <li><a href="generic.html" className="button">Learn more</a></li>
             </ul>
@@ -27,7 +27,7 @@ const FeatureGrid = ({ gridItems, heading, subheading }) => (
         </div>
     </section>
 
-    
+
   </>
 );
 
