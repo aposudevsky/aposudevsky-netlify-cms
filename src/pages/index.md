@@ -40,7 +40,7 @@ intro:
         quickest method to fetch rapidly changing data that needs to be
         recorded.
       title: React
-    - icon: fa-code
+    - icon: fa-mobile
       text: >-
         PWA is a technique to make your website look and feel like a native app
         on any platform. IOS, Android, Windows phone, Desktop app - all looks
