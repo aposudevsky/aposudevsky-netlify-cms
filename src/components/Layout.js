@@ -17,6 +17,7 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
 
+        {/*
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -40,12 +41,14 @@ const TemplateWrapper = ({ children }) => {
           href="/img/safari-pinned-tab.svg"
           color="#ff4400"
         />
+        <meta property="og:image" content="/img/og-image.jpg" />
+        */}
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
-        <meta property="og:image" content="/img/og-image.jpg" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       </Helmet>
       <Navbar />
@@ -53,6 +56,6 @@ const TemplateWrapper = ({ children }) => {
       <Footer />
     </div>
   )
-}
+};
 
 export default TemplateWrapper
