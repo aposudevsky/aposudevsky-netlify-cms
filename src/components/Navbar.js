@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
 					<nav>
 						<ul>
 							<li><AnchorLink href="#intro">Welcome</AnchorLink></li>
-							<li><AnchorLink href="#two">What I do</AnchorLink></li>
+							<li><AnchorLink href="#services">What I do</AnchorLink></li>
 							<li><AnchorLink href="#three">Get in touch</AnchorLink></li>
 						</ul>
 					</nav>

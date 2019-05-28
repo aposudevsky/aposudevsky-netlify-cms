@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({
       <h1>{title}</h1>
       <p>{subheading}</p>
       <ul class="actions">
-        <li><a href="#one" class="button scrolly">Learn more</a></li>
+        <li><a href="#services" class="button scrolly">Learn more</a></li>
       </ul>
     </div>
   </section>

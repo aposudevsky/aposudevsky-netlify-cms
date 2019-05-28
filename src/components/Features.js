@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const FeatureGrid = ({ gridItems, heading, subheading }) => (
 
   <>
-    <section id="two" className="wrapper style3 fade-up">
+    <section id="services" className="wrapper style3 fade-up">
         <div className="inner">
             <h2>{ heading }</h2>
             <p>{ subheading }</p>
