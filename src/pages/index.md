@@ -4,11 +4,11 @@ title: 'Hello, I''m Andrey'
 image: /img/dsc04555.jpg
 heading: this is the heading
 subheading: >-
-  I am full stack web developer with passion about performance and
-  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
-  Backend Developer.  Headless adept, occasional speaker, team lead with strong
-  interest in everything Full Stack.  Drupal, Gatsby, React, PWAs, API-first,
-  complex architecture of high-load products inspire me to build better apps.
+  Full stack web developer with passion about performance and cross-platform
+  apps. I like Drupal enough to get Acquia Certified as Drupal 8 Backend
+  Developer. Headless adept, occasional speaker, team lead with strong interest
+  in everything Full Stack. Drupal, Gatsby, React, PWAs, API-first, complex
+  architecture of high-load products inspire me to build better apps.
 description: not used
 intro:
   blurbs:
@@ -28,7 +28,7 @@ intro:
         including building eCommerce websites, blogs, landing pages and all
         sorts of portals.
       title: Drupal
-    - icon: fa-react
+    - icon: fa-code
       text: >-
         React is a JavaScript library for building user interfaces. It is
         maintained by Facebook and a community of individual developers and
@@ -40,7 +40,7 @@ intro:
         quickest method to fetch rapidly changing data that needs to be
         recorded.
       title: React
-    - icon: fa-mobile-alt
+    - icon: fa-mobile
       text: >-
         PWA is a technique to make your website look and feel like a native app
         on any platform. IOS, Android, Windows phone, Desktop app - all looks
