@@ -74,6 +74,18 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+          name: `Andrey Posudevsky | Full Stack Developer`,
+          short_name: `Andrey Posudevsky`,
+          start_url: `/`,
+          background_color: `#5e42a6`,
+          theme_color: `#5e42a6`,
+          display: `standalone`,
+      },
+    },
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
   // for avoiding CORS while developing Netlify Functions locally
