@@ -12,14 +12,6 @@ subheading: >-
 description: not used
 intro:
   blurbs:
-    - icon: fa-code
-      text: >-
-        Gatsby allows you to build blazing fast websites by building static
-        pages out of your content. It can use data from multiple data sources
-        like Markdown, APIs and CMSes (Drupal, Wordpress, Umbraco, etc.) Being
-        written in NodeJS and using React under the hood it allows creating
-        truly fascinating user experience.
-      title: Gatsby
     - icon: fa-drupal
       text: >-
         Drupal is a free, open-source content management system (CMS) with a
@@ -29,6 +21,14 @@ intro:
         sorts of portals.
       title: Drupal
     - icon: fa-code
+      text: >-
+        Gatsby allows you to build blazing fast websites by building static
+        pages out of your content. It can use data from multiple data sources
+        like Markdown, APIs and CMSes (Drupal, Wordpress, Umbraco, etc.) Being
+        written in NodeJS and using React under the hood it allows creating
+        truly fascinating user experience.
+      title: Gatsby
+    - icon: fa-file-code-o
       text: >-
         React is a JavaScript library for building user interfaces. It is
         maintained by Facebook and a community of individual developers and
