@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import ContactForm from './ContactForm';
 
 const Contacts = class extends React.Component {
@@ -8,7 +7,7 @@ const Contacts = class extends React.Component {
 			<section id="three" className="wrapper style1 fade-up">
 				<div className="inner">
 					<h2>Get in touch</h2>
-					<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+					<p>Let's discuss how can I help your business grow</p>
 					<div className="split style1">
 						<section>
 							<ContactForm />
@@ -17,7 +16,7 @@ const Contacts = class extends React.Component {
 							<ul className="contact">
 								<li>
 									<h3>Email</h3>
-									<a href="mailto:hi@andrey.vision">hi@andrey.vision</a>
+									<a href="mailto:hi@aposudevsky.com">hi@aposudevsky.com</a>
 								</li>
 								<li>
 									<h3>Phone</h3>
@@ -26,11 +25,11 @@ const Contacts = class extends React.Component {
 								<li>
 									<h3>Social</h3>
 									<ul className="icons">
-										<li><Link to="https://twitter.com/APosudevsky" className="fa-twitter"><span className="label">Twitter</span></Link></li>
-										<li><Link to="https://www.facebook.com/aposudevsky" className="fa-facebook"><span className="label">Facebook</span></Link></li>
-										<li><Link to="https://github.com/aposudevsky" className="fa-github"><span className="label">GitHub</span></Link></li>
-										<li><Link to="https://www.instagram.com/aposudevsky/" className="fa-instagram"><span className="label">Instagram</span></Link></li>
-										<li><Link to="https://www.linkedin.com/in/andrey-posudevsky/" className="fa-linkedin"><span className="label">LinkedIn</span></Link></li>
+										<li><a href="https://twitter.com/APosudevsky" className="fa-twitter" target="_blank" rel="noopener noreferrer"><span className="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/aposudevsky" className="fa-facebook" target="_blank" rel="noopener noreferrer"><span className="label">Facebook</span></a></li>
+										<li><a href="https://github.com/aposudevsky" className="fa-github" target="_blank" rel="noopener noreferrer"><span className="label">GitHub</span></a></li>
+										<li><a href="https://www.instagram.com/aposudevsky/" className="fa-instagram" target="_blank" rel="noopener noreferrer"><span className="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/in/andrey-posudevsky/" className="fa-linkedin" target="_blank" rel="noopener noreferrer"><span className="label">LinkedIn</span></a></li>
 									</ul>
 								</li>
 							</ul>
