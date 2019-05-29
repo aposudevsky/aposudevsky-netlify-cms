@@ -15,11 +15,11 @@ export default class ContactForm extends React.Component {
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value })
-  }
+  };
 
   handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
+    e.preventDefault();
+    const form = e.target;
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -42,7 +42,7 @@ export default class ContactForm extends React.Component {
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
       >
-        <div class="fields">
+        <div className="fields">
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
           <div hidden>
@@ -90,12 +90,12 @@ export default class ContactForm extends React.Component {
             />
           </div>
         </div>
-        <ul class="actions">
+        <ul className="actions">
             <li>
               <button className="button is-link" type="submit">Send Message</button>
             </li>
           </ul>
-      </form>     
+      </form>
     )
   }
 }
