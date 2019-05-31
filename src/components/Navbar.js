@@ -1,48 +1,35 @@
-import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import React from 'react';
+import { Link } from 'gatsby';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
-
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+class Navbar extends React.Component {
 
   render() {
     return (
       <section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><AnchorLink href="#intro">Welcome</AnchorLink></li>
-							<li><AnchorLink href="#services">What I do</AnchorLink></li>
-							<li><AnchorLink href="#three">Get in touch</AnchorLink></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+        <div className="inner">
+            <nav>
+                <ul>
+                    {
+                        window.location.pathname === '/' &&
+                        <>
+                            <li><AnchorLink href="#intro">Welcome</AnchorLink></li>
+                            <li><AnchorLink href="#services">What I do</AnchorLink></li>
+                            <li><AnchorLink href="#three">Get in touch</AnchorLink></li>
+                        </>
+                    }
+                    {
+                        window.location.pathname !== '/' &&
+                        <>
+                            <li><Link to="/#intro">Welcome</Link></li>
+                            <li><Link to="/#services">What I do</Link></li>
+                            <li><Link to="/#three">Get in touch</Link></li>
+                        </>
+                    }
+                </ul>
+            </nav>
+        </div>
+      </section>
     )
   }
 }
