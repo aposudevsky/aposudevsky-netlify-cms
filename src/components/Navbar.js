@@ -11,6 +11,7 @@ class Navbar extends React.Component {
             <nav>
                 <ul>
                     {
+                        typeof window !== 'undefined' &&
                         window.location.pathname === '/' &&
                         <>
                             <li><AnchorLink href="#intro">Welcome</AnchorLink></li>
@@ -19,6 +20,7 @@ class Navbar extends React.Component {
                         </>
                     }
                     {
+                        typeof window !== 'undefined' &&
                         window.location.pathname !== '/' &&
                         <>
                             <li><Link to="/#intro">Welcome</Link></li>
