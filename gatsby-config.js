@@ -86,6 +86,18 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+          trackingId: "UA-141218511-1",
+          // Defines where to place the tracking script - `true` in the head and `false` in the body
+          head: false,
+          // Setting this parameter is optional
+          anonymize: true,
+          // Setting this parameter is also optional
+          respectDNT: true,
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
   // for avoiding CORS while developing Netlify Functions locally
