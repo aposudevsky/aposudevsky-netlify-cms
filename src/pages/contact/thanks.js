@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import Img from "gatsby-image";
 import {graphql, StaticQuery} from "gatsby";
+import { Link } from 'gatsby';
 
 const ThankYouPage = ({ data }) => (
   <Layout>
@@ -11,7 +12,7 @@ const ThankYouPage = ({ data }) => (
           <span className="image fit">
               <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} alt="Page not found" />
           </span>
-          <p>Thank you for your interest! I will get back to you shortly</p>
+          <p>Thank you for your interest! I will get back to you shortly. <Link to="/">Back to homepage</Link></p>
       </div>
     </section>
   </Layout>
