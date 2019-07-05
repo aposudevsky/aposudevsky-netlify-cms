@@ -19,10 +19,6 @@ const Contacts = class extends React.Component {
 									<a href="mailto:hi@aposudevsky.com">hi@aposudevsky.com</a>
 								</li>
 								<li>
-									<h3>Phone</h3>
-									<span>(+31) 629-7-444-96</span>
-								</li>
-								<li>
 									<h3>Social</h3>
 									<ul className="icons">
 										<li><a href="https://twitter.com/APosudevsky" className="fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><span className="label">Twitter</span></a></li>
