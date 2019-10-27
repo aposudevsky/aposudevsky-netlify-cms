@@ -16,7 +16,7 @@ const Contacts = class extends React.Component {
 							<ul className="contact">
 								<li>
 									<h3>Email</h3>
-									<a href="mailto:hi@aposudevsky.com">hi@aposudevsky.com</a>
+									<a href="mailto:aposudevsky@gmail.com">aposudevsky@gmail.com</a>
 								</li>
 								<li>
 									<h3>Social</h3>
