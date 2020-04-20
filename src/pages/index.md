@@ -6,9 +6,9 @@ heading: this is the heading
 subheading: >-
   Full stack web developer with passion about performance and cross-platform
   apps. I like Drupal enough to get Acquia Certified as Drupal 8 Backend
-  Developer. Headless adept, occasional speaker, team lead with strong interest
-  in everything Full Stack. Drupal, Gatsby, React, PWAs, API-first, complex
-  architecture of high-load products inspire me to build better apps.
+  Developer. Headless adept, occasional speaker, technical lead with strong
+  interest in everything Full Stack. Drupal, Gatsby, React, PWAs, API-first,
+  complex architecture of high-load products inspire me to build better apps.
 description: not used
 intro:
   blurbs:
