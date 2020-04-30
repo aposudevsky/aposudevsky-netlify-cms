@@ -1,4 +1,4 @@
-var proxy = require('http-proxy-middleware')
+var proxy = require('http-proxy-middleware');
 
 module.exports = {
   siteMetadata: {
@@ -62,6 +62,17 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+          name: `Andrey Posudevsky | Full Stack Developer`,
+          short_name: `Andrey Posudevsky`,
+          start_url: `/`,
+          background_color: `#5e42a6`,
+          theme_color: `#5e42a6`,
+          display: `standalone`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
@@ -74,17 +85,6 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-          name: `Andrey Posudevsky | Full Stack Developer`,
-          short_name: `Andrey Posudevsky`,
-          start_url: `/`,
-          background_color: `#5e42a6`,
-          theme_color: `#5e42a6`,
-          display: `standalone`,
-      },
-    },
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -105,7 +105,7 @@ module.exports = {
   developMiddleware: app => {
     app.use(
       '/.netlify/functions/',
-      proxy({
+      proxy.createProxyMiddleware({
         target: 'http://localhost:9000',
         pathRewrite: {
           '/.netlify/functions/': '',
