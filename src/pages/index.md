@@ -1,30 +1,28 @@
 ---
 templateKey: index-page
-title: 'Hello, I''m Andrey'
-image: /img/dsc04555.jpg
+title: Hello, I'm Andrey
+image: /img/andrey-posudevsky-web-2.jpg
 heading: this is the heading
-subheading: >-
-  Full stack web developer with passion about performance and cross-platform
-  apps. I like Drupal enough to get Acquia Certified as Drupal 8 Backend
-  Developer. Headless adept, occasional speaker, technical lead with strong
-  interest in everything Full Stack. Drupal, Gatsby, React, PWAs, API-first,
-  complex architecture of high-load products inspire me to build better apps.
+subheading: Full stack web developer with passion about performance and
+  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
+  Backend Developer. Headless adept, occasional speaker, technical lead with
+  strong interest in everything Full Stack. Drupal, Gatsby, React, PWAs,
+  API-first, complex architecture of high-load products inspire me to build
+  better apps.
 description: not used
 intro:
   blurbs:
     - icon: fa-drupal
-      text: >-
-        Drupal is a free, open-source content management system (CMS) with a
+      text: Drupal is a free, open-source content management system (CMS) with a
         large, supportive community. While it's really powerful in arranging all
         sorts of content into well-formed structures, it offers a lot more,
         including building eCommerce websites, blogs, landing pages and all
         sorts of portals.
       title: Drupal
     - icon: fa-code
-      text: >-
-        Gatsby allows you to build blazing fast websites by building static
-        pages out of your content. It can use data from multiple data sources
-        like Markdown, APIs and CMSes (Drupal, Wordpress, Umbraco, etc.) Being
+      text: Gatsby allows you to build blazing fast websites by building static pages
+        out of your content. It can use data from multiple data sources like
+        Markdown, APIs and CMSes (Drupal, Wordpress, Umbraco, etc.) Being
         written in NodeJS and using React under the hood it allows creating
         truly fascinating user experience.
       title: Gatsby
@@ -35,21 +33,17 @@ intro:
         companies.
 
 
-        React can be used as a base in the development of single-page or mobile
-        applications, as it's optimal only for its intended use of being the
-        quickest method to fetch rapidly changing data that needs to be
-        recorded.
+        React can be used as a base in the development of single-page or mobile applications, as it's optimal only for its intended use of being the quickest method to fetch rapidly changing data that needs to be recorded.
       title: React
     - icon: fa-mobile
-      text: >-
-        PWA is a technique to make your website look and feel like a native app
-        on any platform. IOS, Android, Windows phone, Desktop app - all looks
+      text: PWA is a technique to make your website look and feel like a native app on
+        any platform. IOS, Android, Windows phone, Desktop app - all looks
         native to its platform. In combination with Service Workers PWA can do a
         lot of things, such as work offline, background syncing, push
         notifications and many more.
       title: Progressive web apps
   heading: What I do
-  description: 'I offer various full stack development services '
+  description: "I offer various full stack development services "
 main:
   heading: Great coffee with no compromises
   description: >
@@ -67,4 +61,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
