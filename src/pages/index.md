@@ -4,11 +4,11 @@ title: Hello, I'm Andrey
 image: /img/andrey-posudevsky-web-2.jpg
 heading: this is the heading
 subheading: Full stack web developer with passion about performance and
-  cross-platform apps. I like Drupal enough to get [Acquia Certified as Drupal 8
-  Backend Developer](https://certification.acquia.com/user/6502). Headless
-  adept, occasional speaker, technical lead with strong interest in everything
-  Full Stack. Drupal, Gatsby, React, PWAs, API-first, complex architecture of
-  high-load products inspire me to build better apps.
+  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
+  Backend Developer. Headless adept, occasional speaker, technical lead with
+  strong interest in everything Full Stack. Drupal, Gatsby, React, PWAs,
+  API-first, complex architecture of high-load products inspire me to build
+  better apps.
 description: not used
 intro:
   blurbs:
@@ -42,8 +42,9 @@ intro:
         lot of things, such as work offline, background syncing, push
         notifications and many more.
       title: Progressive web apps
-  heading: What I do
-  description: "I offer various full stack development services "
+  heading: Technologies
+  description: My expertise lies within architecture and development using
+    following technological stack
 main:
   heading: Great coffee with no compromises
   description: >
