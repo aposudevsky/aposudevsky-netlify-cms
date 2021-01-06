@@ -1,15 +1,15 @@
 ---
+heading: this is the heading
 templateKey: index-page
 title: Hello, I'm Andrey
 image: /img/andrey-posudevsky-web-2.jpg
-heading: this is the heading
+image2: /img/andrey-posudevsky-web-4.jpg
 subheading: Full stack web developer with passion about performance and
   cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
   Backend Developer. Headless adept, occasional speaker, technical lead with
   strong interest in everything Full Stack. Drupal, Gatsby, React, PWAs,
   API-first, complex architecture of high-load products inspire me to build
   better apps.
-description: not used
 intro:
   blurbs:
     - icon: fa-drupal
@@ -61,6 +61,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: not used
 ---
 Full stack web developer with passion about performance and
 cross-platform apps. I like Drupal enough to get [Acquia Certified as Drupal 8
