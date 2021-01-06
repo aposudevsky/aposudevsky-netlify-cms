@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Contacts from '../components/Contacts'
 import Img from 'gatsby-image'
+import { Reviews } from '../components/Reviews'
 
 export const IndexPageTemplate = ({
   title,
@@ -28,7 +29,7 @@ export const IndexPageTemplate = ({
 
   <section id="vision" className="wrapper style2 spotlights">
     <section>
-      <a className="image"><Img fluid={image.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
+      
       <div className="content">
         <div className="inner">
           <h2>Vision</h2>
@@ -44,11 +45,12 @@ export const IndexPageTemplate = ({
           
         </div>
       </div>
+      <a className="image"><Img fluid={image.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
     </section>
     <section>
-      <a class="image"><Img fluid={image2.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
-      <div class="content">
-        <div class="inner">
+      <a className="image"><Img fluid={image2.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
+      <div className="content">
+        <div className="inner">
           <h2>Approach</h2>
           <p>During development and communication I follow these key principles:</p>
           <ul className="alt pl">
@@ -65,6 +67,8 @@ export const IndexPageTemplate = ({
   </section>
 
   <Features gridItems={intro.blurbs} heading={intro.heading} subheading={intro.description} />
+
+  <Reviews />
   <Contacts />
 </>
 )
