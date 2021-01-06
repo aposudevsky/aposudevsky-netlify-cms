@@ -95,7 +95,7 @@
 			}
 
 			@include breakpoint('<=medium') {
-				display: block;
+				display: grid;
 
 				> .image {
 					width: 100%;
@@ -104,6 +104,7 @@
 
 				> .content {
 					width: 100%;
+					order: 2;
 				}
 
 				&.inactive,
