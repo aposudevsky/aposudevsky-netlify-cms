@@ -29,10 +29,6 @@
 			list-style: none;
 			padding-left: 0;
 
-			&.pl {
-				padding-left: 1em;
-			}
-
 			li {
 				border-top: solid _size(border-width) _palette(border);
 				padding: 0.5em 0;

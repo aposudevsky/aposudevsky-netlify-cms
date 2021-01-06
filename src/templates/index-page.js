@@ -5,22 +5,62 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Contacts from '../components/Contacts'
+import Img from 'gatsby-image'
 
 export const IndexPageTemplate = ({
   title,
   subheading,
+  image,
   intro,
 }) => (
 
 <>
-  <section id="intro" class="wrapper style1 fullscreen fade-up">
-    <div class="inner">
+  <section id="intro" className="wrapper style1 fullscreen fade-up">
+    <div className="inner">
       <h1>{title}</h1>
-      <p>{subheading}</p>
-      <ul class="actions">
-        <li><a href="#services" class="button scrolly">Learn more</a></li>
+      <div dangerouslySetInnerHTML={{__html: subheading}}></div>
+      <ul className="actions">
+        <li><a href="#services" className="button scrolly">Learn more</a></li>
       </ul>
     </div>
+  </section>
+
+  <section className="wrapper style2 spotlights">
+    <section>
+      <a className="image"><Img fluid={image.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
+      <div className="content">
+        <div className="inner">
+          <h2>Vision</h2>
+          <p>Recently I made a switch from employee with role of Technical lead / Architect to contract jobs. 
+            Following transparency principle, I would like to offer my clients flexibility, 
+            that not every web agency can offer.
+          </p>
+          <p>
+            I put value in honest and trustful relationships with my clients even on short-term projects. 
+            Keeping pace with latest technogies, I provide services as Technical lead / Full Stack Architect 
+            and take care of both building websites from scratch and supporting existing websites.
+          </p>
+          
+        </div>
+      </div>
+    </section>
+    <section>
+      <a class="image"></a>
+      <div class="content">
+        <div class="inner">
+          <h2>Approach</h2>
+          <p>During development and communication I follow these key principles:</p>
+          <ul className="alt">
+            <li>Transparency</li>
+            <li>Effective communication</li>
+            <li>Innovation</li>
+            <li>Proactive approach</li>
+            <li>Quality</li>
+            <li>Flexibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </section>
 
   <Features gridItems={intro.blurbs} heading={intro.heading} subheading={intro.description} />
@@ -42,13 +82,16 @@ IndexPageTemplate.propTypes = {
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
+  console.log(data);
+  
+
   return (
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        subheading={data.markdownRemark.html}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -69,10 +112,18 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      html
       frontmatter {
         title
         heading
         subheading
+        image {
+          childImageSharp {
+            fluid(maxWidth: 501, quality: 75) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
         intro {
           blurbs {
