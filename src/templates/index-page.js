@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
     </div>
   </section>
 
-  <section className="wrapper style2 spotlights">
+  <section id="vision" className="wrapper style2 spotlights">
     <section>
       <a className="image"><Img fluid={image.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
       <div className="content">
@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
         <div class="inner">
           <h2>Approach</h2>
           <p>During development and communication I follow these key principles:</p>
-          <ul className="alt">
+          <ul className="alt pl">
             <li>Transparency</li>
             <li>Effective communication</li>
             <li>Innovation</li>
@@ -115,7 +115,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        heading
         subheading
         image {
           childImageSharp {

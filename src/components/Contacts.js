@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 const Contacts = class extends React.Component {
   render() {
     return (
-			<section id="three" className="wrapper style1 fade-up">
+			<section id="contact" className="wrapper style1 fade-up">
 				<div className="inner">
 					<h2>Get in touch</h2>
 					<p>Let's discuss how I can help your business grow</p>
