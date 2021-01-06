@@ -42,8 +42,9 @@ intro:
         lot of things, such as work offline, background syncing, push
         notifications and many more.
       title: Progressive web apps
-  heading: What I do
-  description: "I offer various full stack development services "
+  heading: Technologies
+  description: My expertise lies within architecture and development using
+    following technological stack
 main:
   heading: Great coffee with no compromises
   description: >
