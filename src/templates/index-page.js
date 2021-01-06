@@ -11,6 +11,7 @@ export const IndexPageTemplate = ({
   title,
   subheading,
   image,
+  image2,
   intro,
 }) => (
 
@@ -20,7 +21,7 @@ export const IndexPageTemplate = ({
       <h1>{title}</h1>
       <div dangerouslySetInnerHTML={{__html: subheading}}></div>
       <ul className="actions">
-        <li><a href="#services" className="button scrolly">Learn more</a></li>
+        <li><a href="#vision" className="button scrolly">Learn more</a></li>
       </ul>
     </div>
   </section>
@@ -45,7 +46,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <section>
-      <a class="image"></a>
+      <a class="image"><Img fluid={image2.childImageSharp.fluid} alt={'Andrey Posudevsky'} /></a>
       <div class="content">
         <div class="inner">
           <h2>Approach</h2>
@@ -70,8 +71,8 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -82,15 +83,12 @@ IndexPageTemplate.propTypes = {
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
-  console.log(data);
-  
-
   return (
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        image2={frontmatter.image2}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={data.markdownRemark.html}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -117,6 +115,13 @@ export const pageQuery = graphql`
         title
         subheading
         image {
+          childImageSharp {
+            fluid(maxWidth: 501, quality: 75) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        image2 {
           childImageSharp {
             fluid(maxWidth: 501, quality: 75) {
               ...GatsbyImageSharpFluid
