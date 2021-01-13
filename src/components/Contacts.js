@@ -1,5 +1,10 @@
 import React from 'react'
 import ContactForm from './ContactForm';
+import { FaTwitterSquare } from '@react-icons/all-files/fa/FaTwitterSquare';
+import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare';
+import { FaGithubSquare } from '@react-icons/all-files/fa/FaGithubSquare';
+import { FaInstagramSquare } from '@react-icons/all-files/fa/FaInstagramSquare';
+import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
 
 const Contacts = class extends React.Component {
   render() {
@@ -21,11 +26,31 @@ const Contacts = class extends React.Component {
 								<li>
 									<h3>Social</h3>
 									<ul className="icons">
-										<li><a href="https://twitter.com/APosudevsky" className="fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><span className="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/aposudevsky" className="fa-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span className="label">Facebook</span></a></li>
-										<li><a href="https://github.com/aposudevsky" className="fa-github" target="_blank" rel="noopener noreferrer" aria-label="Github"><span className="label">GitHub</span></a></li>
-										<li><a href="https://www.instagram.com/aposudevsky/" className="fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span className="label">Instagram</span></a></li>
-										<li><a href="https://www.linkedin.com/in/andrey-posudevsky/" className="fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span className="label">LinkedIn</span></a></li>
+										<li>
+											<a href="https://twitter.com/APosudevsky" className="fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+												<FaTwitterSquare size={'1.5em'} color={'#fff'} />
+											</a>
+										</li>
+										<li>
+											<a href="https://www.facebook.com/aposudevsky" className="fa-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+												<FaFacebookSquare size={'1.5em'} color={'#fff'} />
+											</a>
+										</li>
+										<li>
+											<a href="https://github.com/aposudevsky" className="fa-github" target="_blank" rel="noopener noreferrer" aria-label="Github">
+												<FaGithubSquare size={'1.5em'} color={'#fff'} />
+											</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/aposudevsky/" className="fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+												<FaInstagramSquare size={'1.5em'} color={'#fff'} />
+											</a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/andrey-posudevsky/" className="fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+												<FaLinkedin size={'1.5em'} color={'#fff'} />
+											</a>
+										</li>
 									</ul>
 								</li>
 							</ul>

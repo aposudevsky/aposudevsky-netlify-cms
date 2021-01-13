@@ -6,6 +6,7 @@ const Footer = class extends React.Component {
       <footer id="footer" className="wrapper style1-alt">
 				<div className="inner">
 					<ul className="menu">
+						<li>COC (KVK) number: 81367244</li>
 						<li>&copy; Andrey Posudevsky. All rights reserved.</li>
 					</ul>
 				</div>
