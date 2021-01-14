@@ -3,7 +3,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
 export const Reviews = () => (
-  <section className={'style2-alt wrapper reviews'}>
+  <section id={'reviews'} className={'style2-alt wrapper reviews'}>
     <div className={'inner'}>
       <h2>What people say about my work</h2>
       <div className={'features'}>

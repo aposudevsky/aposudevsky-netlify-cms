@@ -17,6 +17,7 @@ class Navbar extends React.Component {
                             <li><AnchorLink href="#intro">Welcome</AnchorLink></li>
                             <li><AnchorLink href="#vision">Vision</AnchorLink></li>
                             <li><AnchorLink href="#technologies">Technologies</AnchorLink></li>
+                            <li><AnchorLink href="#reviews">Reviews</AnchorLink></li>
                             <li><AnchorLink href="#contact">Get in touch</AnchorLink></li>
                         </>
                     }
@@ -27,6 +28,7 @@ class Navbar extends React.Component {
                             <li><Link to="/#intro">Welcome</Link></li>
                             <li><Link to="/#vision">Vision</Link></li>
                             <li><Link to="/#technologies">Technologies</Link></li>
+                            <li><Link to="/#reviews">Reviews</Link></li>
                             <li><Link to="/#contact">Get in touch</Link></li>
                         </>
                     }
