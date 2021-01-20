@@ -53,6 +53,9 @@ const Contacts = class extends React.Component {
 										</li>
 									</ul>
 								</li>
+								<li>
+									<a href="https://calendly.com/aposudevsky/intro-call" target={'__blank'} className="button primary">Schedule a free call</a>
+								</li>
 							</ul>
 						</section>
 					</div>

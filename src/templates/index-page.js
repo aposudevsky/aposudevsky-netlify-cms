@@ -22,7 +22,12 @@ export const IndexPageTemplate = ({
       <h1>{title}</h1>
       <div dangerouslySetInnerHTML={{__html: subheading}}></div>
       <ul className="actions">
-        <li><a href="#vision" className="button scrolly">Learn more</a></li>
+        <li>
+          <a href="#vision" className="button scrolly">Learn more</a>
+        </li>
+        <li>
+          <a href="https://calendly.com/aposudevsky/intro-call" target={'__blank'} className="button primary">Schedule a free call</a>
+        </li>
       </ul>
     </div>
   </section>
