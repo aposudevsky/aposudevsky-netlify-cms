@@ -17,6 +17,29 @@ export const Reviews = () => (
           interval={6100}
         >
           <div className={'review'}>
+            <h3>Maarten Voermans</h3>
+            <h5>Managing director @ We are you</h5>
+            <i>January 26, 2021, Maarten was colleague of Andrey</i>
+            
+            <div>I have worked with Andrey for over 1.5 years. 
+              During this time I got to know him as a very knowledgeable colleague with a lot of knowledge in the field of PHP and Drupal. 
+              He is always looking for cooperation and tries to find the maximum added value from a customer perspective. 
+              As an architect in the team, he prepares things carefully, so that he can inform the team properly. 
+              Quality is central to the execution of his work.
+            </div>
+          </div>
+          <div className={'review'}>
+            <h3>Gábor Mészáros</h3>
+            <h5>Sr. Drupal Backend Developer at We are you</h5>
+            <i>January 29, 2021, Gábor was colleague of Andrey</i>
+            
+            <div>Andrey is an exceptional professional. 
+              We worked together at We are you and as a Tech Lead he demonstrates an outstanding level of knowledge 
+              and deep understanding of the applied technologies especially in Drupal. 
+              His work ethics is immaculate and great to work together with.
+            </div>
+          </div>
+          <div className={'review'}>
             <h3>Frederique Nagtegaal</h3>
             <h5>Advisor Online Communications @ Dutch Hospital Association</h5>
             <i>December 8, 2020, Frederique was a client of Andrey's</i>
