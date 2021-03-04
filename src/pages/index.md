@@ -4,19 +4,20 @@ templateKey: index-page
 title: Hello, I'm Andrey
 image: /img/andrey-posudevsky-web-2.jpg
 image2: /img/andrey-posudevsky-web-4.jpg
-subheading: Full stack web developer with passion about performance and
-  cross-platform apps. I like Drupal enough to get Acquia Certified as Drupal 8
-  Backend Developer. Headless adept, occasional speaker, technical lead with
-  strong interest in everything Full Stack. Drupal, Gatsby, React, PWAs,
-  API-first, complex architecture of high-load products inspire me to build
-  better apps.
+subheading: Full stack web developer, Technical lead, Architect with passion
+  about performance and cross-platform apps. I like Drupal enough to get Acquia
+  Certified as Drupal 8 Backend Developer. Headless adept, occasional speaker,
+  technical lead with strong interest in everything Full Stack. Drupal, Gatsby,
+  React, PWAs, API-first, complex architecture of high-load products inspire me
+  to build better apps.
 intro:
   blurbs:
     - icon: SiPhp
-      text: Shade of 80% of all websites on the internet are build with PHP. 
-        The language evolved quite a lot during past few years 
-        and now contributes to fast development, maintaining high performance and quality.
-        Frameworks like Symfony, Laravel, Zend Framework and CMSes like Drupal, Wordpress are written in PHP
+      text: Shade of 80% of all websites on the internet are build with PHP. The
+        language evolved quite a lot during past few years and now contributes
+        to fast development, maintaining high performance and quality.
+        Frameworks like Symfony, Laravel, Zend Framework and CMSes like Drupal,
+        Wordpress are written in PHP
       title: PHP
     - icon: FaDrupal
       text: Drupal is a free, open-source content management system (CMS) with a
@@ -33,11 +34,12 @@ intro:
         truly fascinating user experience
       title: Gatsby
     - icon: FaReact
-      text: >-
-        React is a JavaScript library for building user interfaces. It is
+      text: React is a JavaScript library for building user interfaces. It is
         maintained by Facebook and a community of individual developers and
-        companies.
-        React can be used as a base in the development of single-page or mobile applications, as it's optimal only for its intended use of being the quickest method to fetch rapidly changing data that needs to be recorded
+        companies. React can be used as a base in the development of single-page
+        or mobile applications, as it's optimal only for its intended use of
+        being the quickest method to fetch rapidly changing data that needs to
+        be recorded
       title: React
     - icon: FaMobileAlt
       text: PWA is a technique to make your website look and feel like a native app on
@@ -47,9 +49,11 @@ intro:
         notifications and many more
       title: Progressive web apps
     - icon: FaFileCode
-      text: I work with different hosting platforms such as Netlify, Pantheon, AWS 
-        and architect microservices using most suitable tech such as AWS lambda functions or web services. 
-        Other technologies I use are NodeJS, Jest, GraphQL, Algolia search, Sanity, NetlifyCMS, MongoDB, ElasticSearch and Redis cache
+      text: I work with different hosting platforms such as Netlify, Pantheon, AWS and
+        architect microservices using most suitable tech such as AWS lambda
+        functions or web services. Other technologies I use are NodeJS, Jest,
+        GraphQL, Algolia search, Sanity, NetlifyCMS, MongoDB, ElasticSearch and
+        Redis cache
       title: Other
   heading: Technologies
   description: My expertise lies within architecture and development using
