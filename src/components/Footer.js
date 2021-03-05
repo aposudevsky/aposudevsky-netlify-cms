@@ -7,6 +7,7 @@ const Footer = class extends React.Component {
 				<div className="inner">
 					<ul className="menu">
 						<li>COC (KVK) number: 81367244</li>
+						<li>VAT (BTW) number: NL003552976B18</li>
 						<li>&copy; Andrey Posudevsky. All rights reserved.</li>
 					</ul>
 				</div>
