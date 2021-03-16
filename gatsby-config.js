@@ -38,6 +38,7 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-plugin-image`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -77,6 +78,7 @@ module.exports = {
           background_color: `#5e42a6`,
           theme_color: `#5e42a6`,
           display: `standalone`,
+          icon: `src/img/avayly.svg`,
       },
     },
     {
