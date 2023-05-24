@@ -38,8 +38,8 @@ export const IndexPageTemplate = ({
       <div className="content">
         <div className="inner">
           <h2>Vision</h2>
-          <p>Recently I made a switch from employee with role of Technical lead / Architect to contract jobs. 
-            Following transparency principle, I would like to offer my clients flexibility, 
+          <p>1st of January, 2021 I made a switch from employee with role of Technical lead / Architect to being self employed. 
+            Following transparency principle, I offer my clients flexibility, 
             that not every web agency can offer.
           </p>
           <p>
