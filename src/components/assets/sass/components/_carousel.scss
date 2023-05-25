@@ -12,57 +12,59 @@
 
     .carousel-root {
       width: 100%;
-    }
+    
 
-    .carousel {
+      .carousel {
 
-      .slide {
-        background-color: #5052b5 !important;
-      }
-
-      .control-dots {
-        margin: 1em 0;
-      }
-
-      .dot {
-        padding-left: 0;
-      }
-
-      .review {
-        padding: 2em 3em 3em 3em;
-
-        h3 {
-          margin: 0 0 0.5em 0;
+        .slide {
+          background-color: #5052b5 !important;
         }
 
-        i:first-child {
-          font-weight: bold;;
+        .control-dots {
+          margin: 1em 0;
         }
 
-        i {
-          font-size: 0.7em;
-          padding-bottom: 1em;
+        .dot {
+          padding-left: 0;
         }
-
-        >div {
-          padding-top: 1em;
-        }
-      }
-
-      @include breakpoint('<=xlarge') {
-        
-      }
-
-      @include breakpoint('<=medium') {
 
         .review {
-          text-align: left;
-          padding: 2em 1em 3em 1em;
-        }
-      }
+          padding: 2em 3em 3em 3em;
 
-      @include breakpoint('<=small') {
-        
+          h3 {
+            margin: 0 0 0.5em 0;
+          }
+
+          i:first-child {
+            font-weight: bold;;
+          }
+
+          i {
+            font-size: 0.7em;
+            padding-bottom: 1em;
+          }
+
+          >div {
+            padding-top: 1em;
+          }
+        }
+
+        @include breakpoint('<=xlarge') {
+          
+        }
+
+        @include breakpoint('<=medium') {
+
+          .review {
+            text-align: left;
+            padding: 2em 1em 3em 1em;
+          }
+        }
+
+        @include breakpoint('<=small') {
+          
+        }
+
       }
 
     }
