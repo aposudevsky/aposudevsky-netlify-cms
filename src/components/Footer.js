@@ -6,8 +6,8 @@ const Footer = class extends React.Component {
       <footer id="footer" className="wrapper style1-alt">
 				<div className="inner">
 					<ul className="menu">
-						<li>COC (KVK) number: 81367244</li>
-						<li>VAT (BTW) number: NL003552976B18</li>
+						<li>COC (KVK) number: 90673891</li>
+						<li>VAT (BTW) number: NL865402127B01</li>
 						<li>&copy; Andrey Posudevsky. All rights reserved.</li>
 					</ul>
 				</div>

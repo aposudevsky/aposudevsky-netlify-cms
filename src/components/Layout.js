@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './assets/sass/main.scss'
 import useSiteMetadata from './SiteMetadata'
+import CookieWall from './layout/CookieWall';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -54,6 +55,8 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div id="wrapper">{children}</div>
       <Footer />
+
+      <CookieWall />
     </div>
   )
 };
