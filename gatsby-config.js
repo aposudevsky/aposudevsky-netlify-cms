@@ -68,17 +68,17 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-          name: `Andrey Posudevsky | Full Stack Web Developer`,
-          short_name: `Andrey Posudevsky`,
-          start_url: `/`,
-          background_color: `#5e42a6`,
-          theme_color: `#5e42a6`,
-          display: `standalone`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //       name: `Andrey Posudevsky | Full Stack Web Developer`,
+    //       short_name: `Andrey Posudevsky`,
+    //       start_url: `/`,
+    //       background_color: `#5e42a6`,
+    //       theme_color: `#5e42a6`,
+    //       display: `standalone`,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
