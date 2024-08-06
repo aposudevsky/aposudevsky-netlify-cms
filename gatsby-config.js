@@ -92,6 +92,7 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    'gatsby-plugin-offline',
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
